@@ -1,0 +1,16 @@
+{
+  "name": "aws-attendance-system",
+  "version": "1.0.0",
+  "description": "AWS Rekognition Attendance System",
+  "main": "src/attend.js",
+  "scripts": {
+    "setup": "node src/setup.js",
+    "register": "node src/register.js",
+    "attend": "node src/attend.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-rekognition": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
